@@ -13,7 +13,6 @@ public class BalancePageSteps {
     public void user_is_on_the_balance_page() throws Throwable {
         System.out.println("\nuser is on the balance page");
         driver = utilities.DriverFactory.open("chrome");
-//        driver.get("https://www.exercise1.com/values");
         driver.get("file:///Users/user/code/Automation/iptech/src/resources/data/test.html");
     }
 
